@@ -1,0 +1,117 @@
+ 
+        body{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Charmonman' ;
+            justify-content: stretch;
+            flex:1;
+
+            
+        }
+
+        .header{
+            display:flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            font-size: 20px;
+            font-weight: 20;
+            background-color: #014421;
+            color: white;
+            align-items: center;
+            
+        }
+
+        .logo{
+            font-weight: 50;
+            font-size: 40px;
+        }
+
+        .move-right{
+            margin-left: auto;
+        }
+
+        .content1{
+            display: flex;
+            justify-content: space-between;
+            flex:1;
+            padding-left: 80px;
+            padding-right: 80px;
+            align-content: stretch;
+            height: 400px;
+            background-color:  #F8EEE7;
+        }
+        .large{
+            font-size: 48px;
+            font-weight: 400;
+        }
+        .part1{
+            flex-direction: column;
+            flex:1;
+        }
+        .part2{
+            flex-direction: column;
+            align-self: stretch;
+            flex:1;
+        }
+
+        
+        button{
+            margin-top: 20px;
+        }
+        .content2{
+            padding-left: 80px;
+            padding-right: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: stretch;
+            padding-top: 40px;
+            background-color:  #94618E; 
+            color: #F9FAf8;
+            font-family: 'Zilla Slab';
+        }
+
+        .photos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 40px;
+            padding : 20px;
+        }
+
+        .title{
+            font-size: 48px;
+            display: flex;
+            flex: 1;
+        }
+
+        .card{
+            display: flex;
+            flex-direction: column;
+            width: 220px;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 0.5em;
+            color: black;
+            background-color: white;
+
+        }
+
+        img{
+            width: 500px;
+            display: flex;
+            height: auto;
+            flex:1;
+            max-width: 100%;
+            border-radius: 0.5em;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 20px;
+            background-color: #014421;
+            color: white;
+        }
